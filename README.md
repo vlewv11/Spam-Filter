@@ -4,15 +4,21 @@ Overview
 
 This project implements a spam filter using a combination of Naive Bayes and Random Forest models. The dataset for this project was manually created by labeling every message as either "spam" or "ham" (not spam) based on a personal mailbox. The dataset includes several features: username, email domain, subject, and text body.
 
+
 Data
 
 The dataset contains the following features:
 
 Username: The username of the email account.
+
 Email Domain: The domain part of the email address.
+
 Subject: The subject line of the email.
+
 Text Body: The content of the email message.
+
 The data was manually labeled as spam or ham to create a balanced dataset for training and evaluation.
+
 
 Methodology
 
@@ -30,6 +36,7 @@ Utilized to process other features: username, email domain, and subject.
 Trains on these features to contribute to the overall classification.
 Model Integration
 The Naive Bayes and Random Forest models were combined into a Logistic Regression model. This integrated approach allowed for the fusion of text-based and feature-based predictions to achieve a robust classification system.
+
 
 Results
 
